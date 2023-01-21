@@ -1,8 +1,12 @@
 {
-    "users":{
-        "joshua": {
-            "age": 27,
-            "color": "black"
-        }
+    "Post": {
+      "comments": {
+        "hasMany": "Comment"
+      }
+    },
+    "Comment": {
+      "post": {
+        "belongsTo": "Post"
+      }
     }
-}
+  }
