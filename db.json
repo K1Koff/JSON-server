@@ -1,9 +1,131 @@
 {
   "cars": [
     {
-      "engine": "v8",
-      "body": "cabri"
-    }
+      "Name": "Maserati",
+      "engine": {
+          "power": "500 Hp",
+          "volume": "4.0 L"
+      },
+      "wheels": {
+          "diameter": "22 inch",
+          "width" : "240 mm"
+      },
+      "body": "coupe",
+      "size": {
+          "width": "2200 mm",
+          "height": "1400 mm",
+          "lenght": "5000 mm"
+      },
+      "weight": "1500 kg"
+  },
+  {
+    "Name": "VW Golf",
+    "engine": {
+        "power": "80 Hp",
+        "volume": "1.5 L"
+    },
+    "wheels": {
+        "diameter": "13 inch",
+        "width" : "160 mm"
+    },
+    "body": "HatchBack",
+    "size": {
+        "width": "1600 mm",
+        "height": "1500 mm",
+        "lenght": "4400 mm"
+    },
+    "weight": "1100 kg"
+},
+{
+  "Name": "Audi A4",
+  "engine": {
+      "power": "110 Hp",
+      "volume": "1.6 L"
+  },
+  "wheels": {
+      "diameter": "14 inch",
+      "width" : "170 mm"
+  },
+  "body": "Sedan",
+  "size": {
+      "width": "1700 mm",
+      "height": "1500 mm",
+      "lenght": "5100 mm"
+  },
+  "weight": "1200 kg"
+},
+{
+  "Name": "Daewoo Nexia",
+  "engine": {
+      "power": "90 Hp",
+      "volume": "1.5 L"
+  },
+  "wheels": {
+      "diameter": "12 inch",
+      "width" : "150 mm"
+  },
+  "body": "Sedan",
+  "size": {
+      "width": "1800 mm",
+      "height": "1500 mm",
+      "lenght": "4900 mm"
+  },
+  "weight": "1150 kg"
+},
+{
+  "Name": "Renault Megane",
+  "engine": {
+      "power": "140 Hp",
+      "volume": "1.9 L"
+  },
+  "wheels": {
+      "diameter": "16 inch",
+      "width" : "240 mm"
+  },
+  "body": "HatchBack",
+  "size": {
+      "width": "2100 mm",
+      "height": "1500 mm",
+      "lenght": "4700 mm"
+  },
+  "weight": "1250 kg"
+},
+{
+  "Name": "VAZ 2101",
+  "engine": {
+      "power": "66 Hp",
+      "volume": "1.1 L"
+  },
+  "wheels": {
+      "diameter": "11 inch",
+      "width" : "120 mm"
+  },
+  "body": "Sedan",
+  "size": {
+      "width": "1600 mm",
+      "height": "1700 mm",
+      "lenght": "4700 mm"
+  },
+  "weight": "900 kg"
+},
+{
+  "Name": "Toyota Supra",
+  "engine": {
+      "power": "9999 Hp",
+      "volume": "3.0 L"
+  },
+  "wheels": {
+      "diameter": "19 inch",
+      "width" : "250 mm"
+  },
+  "body": "coupe",
+  "size": {
+      "width": "2300 mm",
+      "height": "1300 mm",
+      "lenght": "5100 mm"
+  },
+  "weight": "1700 kg"
+}
   ],
   "profile": {
     "name": "typicode"
