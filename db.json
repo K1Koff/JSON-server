@@ -1,8 +1,8 @@
 {
-  "posts": [
+  "cars": [
     {
-      "id": 1,
-      "title": "hello"
+      "engine": "v8",
+      "body": "cabri"
     }
   ],
   "profile": {
