@@ -3,129 +3,143 @@
     {
       "name": "Maserati",
       "engine": {
-          "power": "500 Hp",
-          "volume": "4.0 L"
+        "power": "500 Hp",
+        "volume": "4.0 L"
       },
       "wheels": {
-          "diameter": "22 inch",
-          "width" : "240 mm"
+        "diameter": "22 inch",
+        "width": "240 mm"
       },
-      "body": "coupe",
+      "body": { 
+        "type": "coupe", 
+        "weight": "1500 kg" 
+    },
       "size": {
-          "width": "2200 mm",
-          "height": "1400 mm",
-          "lenght": "5000 mm"
-      },
-      "weight": "1500 kg"
-  },
-  {
-    "name": "VW Golf",
-    "engine": {
+        "width": "2200 mm",
+        "height": "1400 mm",
+        "lenght": "5000 mm"
+      }
+    },
+    {
+      "name": "VW Golf",
+      "engine": {
         "power": "80 Hp",
         "volume": "1.5 L"
-    },
-    "wheels": {
+      },
+      "wheels": {
         "diameter": "13 inch",
-        "width" : "160 mm"
+        "width": "160 mm"
+      },
+      "body": {
+        "type": "HatchBack",
+        "weight": "1100 kg"
     },
-    "body": "HatchBack",
-    "size": {
+      "size": {
         "width": "1600 mm",
         "height": "1500 mm",
         "lenght": "4400 mm"
+      }
     },
-    "weight": "1100 kg"
-},
-{
-  "name": "Audi A4",
-  "engine": {
-      "power": "110 Hp",
-      "volume": "1.6 L"
-  },
-  "wheels": {
-      "diameter": "14 inch",
-      "width" : "170 mm"
-  },
-  "body": "Sedan",
-  "size": {
-      "width": "1700 mm",
-      "height": "1500 mm",
-      "lenght": "5100 mm"
-  },
-  "weight": "1200 kg"
-},
-{
-  "name": "Daewoo Nexia",
-  "engine": {
-      "power": "90 Hp",
-      "volume": "1.5 L"
-  },
-  "wheels": {
-      "diameter": "12 inch",
-      "width" : "150 mm"
-  },
-  "body": "Sedan",
-  "size": {
-      "width": "1800 mm",
-      "height": "1500 mm",
-      "lenght": "4900 mm"
-  },
-  "weight": "1150 kg"
-},
-{
-  "name": "Renault Megane",
-  "engine": {
-      "power": "140 Hp",
-      "volume": "1.9 L"
-  },
-  "wheels": {
-      "diameter": "16 inch",
-      "width" : "240 mm"
-  },
-  "body": "HatchBack",
-  "size": {
-      "width": "2100 mm",
-      "height": "1500 mm",
-      "lenght": "4700 mm"
-  },
-  "weight": "1250 kg"
-},
-{
-  "name": "VAZ 2101",
-  "engine": {
-      "power": "66 Hp",
-      "volume": "1.1 L"
-  },
-  "wheels": {
-      "diameter": "11 inch",
-      "width" : "120 mm"
-  },
-  "body": "Sedan",
-  "size": {
-      "width": "1600 mm",
-      "height": "1700 mm",
-      "lenght": "4700 mm"
-  },
-  "weight": "900 kg"
-},
-{
-  "name": "Toyota Supra",
-  "engine": {
-      "power": "9999 Hp",
-      "volume": "3.0 L"
-  },
-  "wheels": {
-      "diameter": "19 inch",
-      "width" : "250 mm"
-  },
-  "body": "coupe",
-  "size": {
-      "width": "2300 mm",
-      "height": "1300 mm",
-      "lenght": "5100 mm"
-  },
-  "weight": "1700 kg"
-}
+    {
+      "name": "Audi A4",
+      "engine": {
+        "power": "110 Hp",
+        "volume": "1.6 L"
+      },
+      "wheels": {
+        "diameter": "14 inch",
+        "width": "170 mm"
+      },
+      "body": {
+        "type": "Sedan",
+        "weight": "1200 kg"
+    },
+      "size": {
+        "width": "1700 mm",
+        "height": "1500 mm",
+        "lenght": "5100 mm"
+      }
+    },
+    {
+      "name": "Daewoo Nexia",
+      "engine": {
+        "power": "90 Hp",
+        "volume": "1.5 L"
+      },
+      "wheels": {
+        "diameter": "12 inch",
+        "width": "150 mm"
+      },
+      "body": {
+        "type": "Sedan",
+        "weight": "1150 kg"
+    },
+      "size": {
+        "width": "1800 mm",
+        "height": "1500 mm",
+        "lenght": "4900 mm"
+      }
+    },
+    {
+      "name": "Renault Megane",
+      "engine": {
+        "power": "140 Hp",
+        "volume": "1.9 L"
+      },
+      "wheels": {
+        "diameter": "16 inch",
+        "width": "240 mm"
+      },
+      "body": {
+        "type": "HatchBack",
+        "weight": "1250 kg"
+    },
+      "size": {
+        "width": "2100 mm",
+        "height": "1500 mm",
+        "lenght": "4700 mm"
+      }
+    },
+    {
+      "name": "VAZ 2101",
+      "engine": {
+        "power": "66 Hp",
+        "volume": "1.1 L"
+      },
+      "wheels": {
+        "diameter": "11 inch",
+        "width": "120 mm"
+      },
+      "body": {
+        "type": "Sedan",
+        "weight": "900 kg"
+    },
+      "size": {
+        "width": "1600 mm",
+        "height": "1700 mm",
+        "lenght": "4700 mm"
+      }
+    },
+    {
+      "name": "Toyota Supra",
+      "engine": {
+        "power": "9999 Hp",
+        "volume": "3.0 L"
+      },
+      "wheels": {
+        "diameter": "19 inch",
+        "width": "250 mm"
+      },
+      "body": {
+        "type": "coupe",
+        "weight": "1700 kg"
+    },
+      "size": {
+        "width": "2300 mm",
+        "height": "1300 mm",
+        "lenght": "5100 mm"
+      }
+    }
   ],
   "profile": {
     "name": "typicode"
