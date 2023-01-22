@@ -1,7 +1,7 @@
 {
   "cars": [
     {
-      "Name": "Maserati",
+      "name": "Maserati",
       "engine": {
           "power": "500 Hp",
           "volume": "4.0 L"
@@ -19,7 +19,7 @@
       "weight": "1500 kg"
   },
   {
-    "Name": "VW Golf",
+    "name": "VW Golf",
     "engine": {
         "power": "80 Hp",
         "volume": "1.5 L"
@@ -37,7 +37,7 @@
     "weight": "1100 kg"
 },
 {
-  "Name": "Audi A4",
+  "name": "Audi A4",
   "engine": {
       "power": "110 Hp",
       "volume": "1.6 L"
@@ -55,7 +55,7 @@
   "weight": "1200 kg"
 },
 {
-  "Name": "Daewoo Nexia",
+  "name": "Daewoo Nexia",
   "engine": {
       "power": "90 Hp",
       "volume": "1.5 L"
@@ -73,7 +73,7 @@
   "weight": "1150 kg"
 },
 {
-  "Name": "Renault Megane",
+  "name": "Renault Megane",
   "engine": {
       "power": "140 Hp",
       "volume": "1.9 L"
@@ -91,7 +91,7 @@
   "weight": "1250 kg"
 },
 {
-  "Name": "VAZ 2101",
+  "name": "VAZ 2101",
   "engine": {
       "power": "66 Hp",
       "volume": "1.1 L"
@@ -109,7 +109,7 @@
   "weight": "900 kg"
 },
 {
-  "Name": "Toyota Supra",
+  "name": "Toyota Supra",
   "engine": {
       "power": "9999 Hp",
       "volume": "3.0 L"
